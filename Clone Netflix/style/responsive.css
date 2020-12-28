@@ -22,6 +22,7 @@
 
 @media screen and (max-width: 650px) {
     .filme-principal{
+        padding: 0 15px;
         background-position: right;
     }
     header .container {
@@ -32,6 +33,10 @@
     .botao {
         margin-bottom: 5px;
         width: 235px;
+    }
+
+    .titulo-carrossel{
+        margin-left: 15px;
     }
 }
 
