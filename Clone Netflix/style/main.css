@@ -1,0 +1,116 @@
+:root {
+    --vermelho: #E50914; 
+    --preta: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+
+body {
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
+} 
+
+* .container {
+    border: 1px solid white;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header img{
+    cursor: pointer;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+
+/*filme principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/gambito_rainha.png');
+    width: 100%;
+    position: relative;
+    height: 80vh;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+
+
+.filme-principal .container {
+    width: 50%;
+}
+
+.titulo{
+    margin-top: 5%;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.botao {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: black;
+    border-radius: 3px;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 18px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+
+.botao:hover{
+    background-color: rgba(255, 255, 255, 0.65);
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.filme-principal .container {
+    margin-left: 20px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-filmes{
+    margin-top: 80px;
+}
