@@ -24,9 +24,6 @@ body {
     
 } 
 
-* .container {
-    border: 1px solid white;
-}
 
 header nav a{
     text-decoration: none;
