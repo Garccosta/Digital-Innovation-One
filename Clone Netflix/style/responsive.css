@@ -1,39 +1,23 @@
 
 @media (max-width: 1250px) {
-    .filme-principal{
-        height: 65vh;
-    }
-    .filme-principal .container{
+    .wrapper {
         zoom: 0.85;
-        -moz-transform: scale(0.85);
     }
-
 
 }
 
  @media (max-width: 1050px) {
-    .filme-principal{
-        height: 55vh;
+    .wrapper {
+        zoom: 0.75;
     }
 
-    .filme-principal .container{
-        zoom: 0.75;
-        -moz-transform: scale(0.75);
-    }
 
 }
 
 @media (max-width: 850px) {
-    .filme-principal{
-        height: 45vh;
+    .wrapper{
+        zoom: 0.65;
     }
-
-    .filme-principal .container{
-    zoom: 0.65;
-    -moz-transform: scale(0.65);
-    width: 60%;
-    }
-
 } 
 
 @media screen and (max-width: 650px) {
@@ -50,3 +34,10 @@
         width: 235px;
     }
 }
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 4;
+  }
